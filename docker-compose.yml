@@ -3,16 +3,8 @@ services:
   csgo-server:
     image: cm2network/csgo
     container_name: csgo-server
-    environment:
-      - SRCDS_TOKEN=03DF985B94973F6F7DEF2A74C3AB336E
-      - SRCDS_RCONPW=anus228
-      - SRCDS_PW=pizda5
-      - SRCDS_PORT=27015
-      - SRCDS_TV_PORT=27020
-      - SRCDS_MAXPLAYERS=14
-      - SRCDS_TICKRATE=128
-      - SRCDS_STARTMAP=de_dust2
-      - AUTO_UPDATE=true
+    env_file:
+      - .env
     volumes:
       - ./csgo-data:/home/steam/csgo-dedicated/
     restart: always

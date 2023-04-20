@@ -1,2 +1,4 @@
-csgo-data
+csgo-data/*
+!csgo-data/csgo/cfg/server.cfg
 .idea
+.env
