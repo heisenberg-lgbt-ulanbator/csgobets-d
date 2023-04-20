@@ -4,7 +4,7 @@ services:
     image: cm2network/csgo
     container_name: csgo-server
     environment:
-      - SRCDS_TOKEN=C5886938D0E0B09A9228F1D1476FD92F
+      - SRCDS_TOKEN=03DF985B94973F6F7DEF2A74C3AB336E
       - SRCDS_RCONPW=anus228
       - SRCDS_PW=pizda5
       - SRCDS_PORT=27015
