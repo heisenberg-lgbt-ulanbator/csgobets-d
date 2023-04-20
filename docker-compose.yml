@@ -6,6 +6,6 @@ services:
     env_file:
       - .env
     volumes:
-      - ./server.cfg:/home/steam/csgo-dedicated/csgo/cfg/server.cfg
+      - ./csgo-data:/home/steam/csgo-dedicated/
     restart: always
     network_mode: host
