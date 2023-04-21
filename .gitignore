@@ -1,5 +1,6 @@
 csgo-data/*
 !csgo-data/csgo/cfg/server.cfg
 !csgo-data/csgo/cfg/gamemode_competitive.cfg
+!csgo-data/csgo/cfg/gamemode_casual.cfg
 .idea
 .env
